@@ -26,7 +26,7 @@ This is a web application developed with **HTML, CSS, and JavaScript**, allowing
 ---
 
 ### 🏠 Home Page
-![Home Page](https://your-image-url.com/homepage.png)
+![Home Page](https://github.com/Alexandre-Paulo-Silva/TRAVEL/blob/main/print%201.png)
 
 ## 🚀 How to Run
 1️⃣ **Clone the repository:**  
