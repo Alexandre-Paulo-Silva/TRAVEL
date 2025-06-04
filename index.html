@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recomendações de Viagem</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<nav>
+    <ul class="menu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#contact">Contact Us</a></li>
+    </ul>
+    <div class="buscar">
+        <input type="text" id="searchBox" placeholder="Buscar...">
+        <button onclick="buscar()">🔍</button>
+        <button onclick="limparCampo()">❌</button>
+    </div>
+</nav>
+
+
+<aside class="redes-sociais">
+    <a href="https://twitter.com" target="_blank">
+        <img src="https://cdn-icons-png.flaticon.com/512/733/733579.png" alt="Twitter">
+    </a>
+    <a href="https://facebook.com" target="_blank">
+        <img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="Facebook">
+    </a>
+    <a href="https://instagram.com" target="_blank">
+        <img src="https://cdn-icons-png.flaticon.com/512/733/733558.png" alt="Instagram">
+    </a>
+    <a href="https://youtube.com" target="_blank">
+        <img src="https://cdn-icons-png.flaticon.com/512/733/733590.png" alt="YouTube">
+    </a>
+</aside>
+
+
+    <section id="home">
+        <h1>WELCOME!</h1>
+        <p>EXPLORE DREAM DESTINATION</p>
+        <h4><p>It encourages exploration of unfamiliar territories, embracing diverse cultures and landscapes, while pursuing the desired 
+        destination that captivates the heart ad ignites a sense of wonder</p>
+        
+        </h4>
+         <button class="button2" type="submit">BOOK NOW</button>
+    </section>
+
+    <section id="about">
+        <h2>ABOUT US</h2>
+        <h4><p>Welcome to Our Company! We are a team of passionate individuals dedicated to providing excellent services/products to our customers. Our mission is to provide the best experience for people traveling to different destinations around the world.
+Our values include integrity, innovation, customer satisfaction, and teamwork. We believe in putting our customers first and working together to achieve our goals.
+Feel free to explore our website to learn more about what we offer! </p></h4>
+    </section>
+
+
+
+<section id="contact">
+    <h2>CONTACT US</h2>
+    <h4><p>Get in touch</p></h4>
+
+    <form id="contactForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+
+        <button class="button1" type="submit">SEND</button>
+    </form>
+</section>
+
+
+    <script src="script.js"></script>
+</body>
+</html>

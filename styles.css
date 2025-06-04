@@ -1,0 +1,166 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background: #007BFF;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu li {
+    display: inline;
+    margin: 10px;
+}
+
+.menu li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.buscar {
+    display: flex;
+    align-items: center;
+}
+
+.buscar input {
+    padding: 5px;
+    margin-right: 5px;
+}
+
+.buscar button {
+    background: white;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.redes-sociais {
+    position: fixed;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+}
+
+.redes-sociais a img {
+    width: 30px;
+    margin: 5px;
+}
+
+section {
+    padding: 50px;
+    text-align: center;
+}
+
+
+.buscar {
+    display: flex;
+    align-items: center;
+}
+
+.buscar input {
+    padding: 5px;
+    margin-right: 5px;
+}
+
+.buscar button {
+    background: white;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    margin-left: 5px;
+}
+
+
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: auto;
+}
+
+label {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+input, textarea {
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+}
+
+textarea {
+    height: 100px;
+}
+
+.button1 {
+    margin-top: 15px;
+    padding: 10px;
+    background: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+
+}
+
+.button2 {
+    margin-top: 15px;
+    padding: 10px;
+    background: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+
+}
+
+
+section {
+    position: relative;
+    padding: 50px;
+    text-align: center;
+    color: black;
+}
+
+section::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    filter: blur(5px);
+    z-index: -1;
+}
+
+#home::before {
+    background-image: url('https://nxboats.com.br/wp-content/uploads/2024/03/viagens-de-luxo.jpg');
+}
+
+#about::before {
+    background-image: url('https://nxboats.com.br/wp-content/uploads/2024/03/viagens-de-luxo.jpg');
+}
+
+#contact::before {
+    background-image: url('https://nxboats.com.br/wp-content/uploads/2024/03/viagens-de-luxo.jpg');
+}
